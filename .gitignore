@@ -1,0 +1,18 @@
+# OS Artifacts
+*.DS_Store
+.directory
+
+# NPM Artifacts
+node_modules/*
+npm-debug.log
+libpeerconnection.log
+coverage/*
+
+# IDE Artifacts
+.idea/*
+*.iml
+*.sublime-*
+nohup.out
+
+# Jekyll artifacts
+_site/*
