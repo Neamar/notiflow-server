@@ -19,7 +19,8 @@
     "async": "0.2.x",
     "restify": "2.6.x",
     "mongoose": "3.8.x",
-    "eventsource": "~0.1.0"
+    "eventsource": "~0.1.0",
+    "gcm": "~1.0.1"
   },
   "devDependencies": {
     "mocha": "1.17.x",
