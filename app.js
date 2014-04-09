@@ -3,11 +3,10 @@
 // Load configuration and initialize server
 var restify = require('restify');
 var mongoose = require('mongoose');
-var autoload = require('auto-load');
 
 var config = require('./config.js');
 
-var handlers = autoload(__dirname + '/lib/handlers');
+var lib = require('./lib');
 
 // Connect mongoose
 mongoose.connect(config.mongoUrl);
@@ -20,7 +19,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 server.use(restify.gzipResponse());
 
-server.post('/init', handlers.init.post);
+server.post('/init', lib.handlers.init.post);
 
 // Expose the server
 module.exports = server;
