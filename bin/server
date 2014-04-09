@@ -6,8 +6,10 @@ var config = require("../config.js");
 // Load server
 var server = require('../app.js');
 
-
 // Start the server
 server.listen(config.port, function() {
   console.log("server listening on port " + config.port);
 });
+
+// Start all listeners
+require('../lib/startup.js')();
