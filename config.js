@@ -2,7 +2,6 @@
 var node_env = process.env.NODE_ENV || "development";
 
 // Port to run the app on. 8000 for development
-// (Vagrant syncs this port)
 // 80 for production
 var default_port = 8000;
 if(node_env === "production") {
