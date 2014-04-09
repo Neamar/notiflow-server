@@ -17,10 +17,12 @@
   },
   "dependencies": {
     "async": "0.2.x",
-    "restify": "2.6.x",
-    "mongoose": "3.8.x",
+    "restify": "^2.6.3",
+    "mongoose": "^3.8.8",
     "eventsource": "~0.1.0",
-    "gcm": "~1.0.1"
+    "gcm": "~1.0.1",
+    "auto-load": "^1.0.0",
+    "supertest": "^0.10.0"
   },
   "devDependencies": {
     "mocha": "1.17.x",
