@@ -16,7 +16,7 @@
     "url": "https://github.com/Neamar/notiflow-server"
   },
   "dependencies": {
-    "async": "0.2.x",
+    "async": "^0.2.10",
     "restify": "^2.6.3",
     "mongoose": "^3.8.8",
     "eventsource": "~0.1.0",
