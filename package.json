@@ -22,7 +22,8 @@
     "eventsource": "~0.1.0",
     "gcm": "~1.0.1",
     "auto-load": "^1.0.0",
-    "supertest": "^0.10.0"
+    "supertest": "^0.10.0",
+    "newrelic": "^1.4.0"
   },
   "devDependencies": {
     "mocha": "1.17.x",
