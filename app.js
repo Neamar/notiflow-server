@@ -20,6 +20,7 @@ server.use(restify.bodyParser());
 server.use(restify.gzipResponse());
 
 server.post('/init', lib.handlers.init.post);
+server.get('/status', lib.handlers.status.get);
 
 // Expose the server
 module.exports = server;
