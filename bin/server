@@ -5,6 +5,8 @@ if(process.env.NEW_RELIC_LICENSE_KEY) {
   require('newrelic');
 }
 
+require('heroku-self-ping')(process.env.NOTIFLOW_URL);
+
 // Load configuration
 var config = require("../config.js");
 
