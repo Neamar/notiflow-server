@@ -4,13 +4,9 @@
 var restify = require('restify');
 var mongoose = require('mongoose');
 
-var config = require('./config.js');
+var config = require('./config/');
 
 var lib = require('./lib');
-
-// Load environment variables from .env file
-var dotenv = require('dotenv');
-dotenv.load();
 
 // Connect mongoose
 mongoose.connect(config.mongoUrl);

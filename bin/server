@@ -8,10 +8,10 @@ if(process.env.NEW_RELIC_LICENSE_KEY) {
 require('heroku-self-ping')(process.env.NOTIFLOW_URL);
 
 // Load configuration
-var config = require("../config.js");
+var config = require("../config/");
 
 // Load server
-var server = require('../app.js');
+var server = require('../app');
 
 // Start the server
 server.listen(config.port, function() {
@@ -19,4 +19,4 @@ server.listen(config.port, function() {
 });
 
 // Start all listeners
-require('../lib/startup.js')();
+require('../lib/helpers/startup.js')();
