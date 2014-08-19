@@ -8,6 +8,10 @@ var config = require('./config.js');
 
 var lib = require('./lib');
 
+// Load environment variables from .env file
+var dotenv = require('dotenv');
+dotenv.load();
+
 // Connect mongoose
 mongoose.connect(config.mongoUrl);
 

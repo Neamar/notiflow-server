@@ -18,4 +18,4 @@ nohup.out
 _site/*
 
 # Keys
-keys.sh
+.env
