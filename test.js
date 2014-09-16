@@ -17,5 +17,17 @@ var user = {
 };
 
 
+// var pushNotification = require('./lib/helpers/pusher');
+// var author = {
+//   id: "notiflow",
+//   nick: "Notiflow"
+// };
+
+// var fakeFlow = {
+//   name: "Welcome to Notiflow!",
+// };
+// pushNotification(user, "Your 500 flows will be monitored.", author, fakeFlow);
+
+
 // and let's go
 require('./lib/helpers/listener')(user);
