@@ -22,4 +22,9 @@ var mongo = process.env.MONGO_URL || ("mongodb://localhost/" + node_env);
 module.exports = {
   mongoUrl: mongo,
   port: port,
+  opbeat: {
+    organizationId: process.env.OPBEAT_ORGANIZATION_ID,
+    appId: process.env.OPBEAT_APP_ID,
+    secretToken: process.env.OPBEAT_SECRET_TOKEN
+  }
 };

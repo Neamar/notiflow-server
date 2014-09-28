@@ -6,7 +6,7 @@
     "server": "./bin/server"
   },
   "scripts": {
-    "start": "node ./bin/server",
+    "start": "node ./bin/server.js",
     "coverage": "NODE_ENV=test istanbul cover node_modules/mocha/bin/_mocha -- --recursive -R spec test/ -t 5000"
   },
   "main": "./lib/",
@@ -25,7 +25,8 @@
     "dotenv": "^0.4.0",
     "heroku-self-ping": "~1.1.1",
     "newrelic": "^1.4.0",
-    "rarity": "~2.1.1"
+    "rarity": "~2.1.1",
+    "opbeat": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "1.17.x",

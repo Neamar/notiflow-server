@@ -1,9 +1,5 @@
 #!/bin/env node
-
-// Load NewRelic
-if(process.env.NEW_RELIC_LICENSE_KEY) {
-  require('newrelic');
-}
+"use strict";
 
 require('heroku-self-ping')(process.env.NOTIFLOW_URL);
 

@@ -11,6 +11,9 @@ var lib = require('./lib');
 // Connect mongoose
 mongoose.connect(config.mongoUrl);
 
+// Setup opbeat logging
+require('opbeat')(config.opbeat);
+
 // Create server
 var server = restify.createServer();
 
