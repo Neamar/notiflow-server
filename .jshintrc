@@ -43,15 +43,14 @@
   "supernew"      : false,
   "validthis"     : false,
 
-  "browser"       : false,
   "couch"         : false,
   "devel"         : false,
   "dojo"          : false,
   "jquery"        : false,
   "mootools"      : false,
-  "node"          : true,
   "nonstandard"   : false,
   "prototypejs"   : false,
+  "node"          : true,
   "rhino"         : false,
   "wsh"           : false,
 
@@ -66,7 +65,9 @@
     "it",
     "after",
     "before",
-    "beforeEach"
+    "beforeEach",
+    "afterEach",
+    "escape"
   ],
   "indent"        : 2,
   "maxstatements" : 40,
