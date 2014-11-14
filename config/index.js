@@ -1,5 +1,5 @@
-// node_env can either be "development", "production" or "test"
-var node_env = process.env.NODE_ENV || "development";
+// nodeEnv can either be "development", "production" or "test"
+var nodeEnv = process.env.NODE_ENV || "development";
 
 
 // Load environment variables from .env file
@@ -9,15 +9,15 @@ dotenv.load();
 
 // Port to run the app on. 8000 for development
 // 80 for production
-var default_port = 8000;
-if(node_env === "production") {
-  default_port = 80;
+var defaultPort = 8000;
+if(nodeEnv === "production") {
+  defaultPort = 80;
 }
-var port = process.env.PORT || default_port;
+var port = process.env.PORT || defaultPort;
 
 
 // MongoDB configuration
-var mongo = process.env.MONGO_URL || ("mongodb://localhost/" + node_env);
+var mongo = process.env.MONGO_URL || ("mongodb://localhost/" + nodeEnv);
 
 module.exports = {
   mongoUrl: mongo,

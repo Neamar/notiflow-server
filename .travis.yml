@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+script:
+  - npm run-script lint
+notifications:
+  flowdock: 30f1a1f2d4e990e14af802b32b25e4e5
