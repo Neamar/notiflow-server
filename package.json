@@ -6,7 +6,7 @@
     "server": "./bin/server"
   },
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "node ./bin/server",
     "lint": "jshint bin config/ lib/ app.js test.js && jscs  bin config/ lib/ app.js test.js"
   },
   "main": "./lib/",
@@ -15,18 +15,18 @@
     "url": "https://github.com/Neamar/notiflow-server"
   },
   "dependencies": {
-    "async": "^0.2.10",
-    "restify": "^2.6.3",
-    "mongoose": "^3.8.8",
-    "eventsource": "~0.1.0",
-    "gcm": "~1.0.1",
-    "auto-load": "^1.0.0",
-    "supertest": "^0.10.0",
-    "dotenv": "^0.4.0",
-    "heroku-self-ping": "~1.1.1",
-    "newrelic": "^1.4.0",
-    "rarity": "~2.1.1",
-    "opbeat": "~1.0.0"
+    "async": "^1.4.2",
+    "auto-load": "^2.0.0",
+    "dotenv": "^1.2.0",
+    "eventsource": "^0.1.6",
+    "gcm": "^1.0.1",
+    "heroku-self-ping": "^1.1.2",
+    "mongoose": "^4.1.9",
+    "newrelic": "^1.22.1",
+    "opbeat": "^1.6.0",
+    "rarity": "^2.1.1",
+    "restify": "^4.0.3",
+    "supertest": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "1.17.x",
@@ -36,6 +36,6 @@
     "mocha-mongoose": "1.0.x"
   },
   "engines": {
-    "node": "=0.10"
+    "node": "=4.0"
   }
 }
