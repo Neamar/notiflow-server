@@ -6,7 +6,7 @@
     "server": "./bin/server"
   },
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "node ./bin/server",
     "lint": "jshint bin config/ lib/ app.js test.js && jscs  bin config/ lib/ app.js test.js"
   },
   "main": "./lib/",
@@ -36,6 +36,6 @@
     "mocha-mongoose": "1.0.x"
   },
   "engines": {
-    "node": "=0.10"
+    "node": "=4.0"
   }
 }
