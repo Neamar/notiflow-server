@@ -7,7 +7,9 @@
   },
   "scripts": {
     "start": "node ./bin/server",
-    "lint": "jshint bin config/ lib/ app.js test.js && jscs  bin config/ lib/ app.js test.js"
+    "lint": "jshint bin config/ lib/ app.js test.js && jscs  bin config/ lib/ app.js test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "./lib/",
   "repository": {
@@ -26,7 +28,8 @@
     "opbeat": "^1.6.0",
     "rarity": "^2.1.1",
     "restify": "^4.0.3",
-    "supertest": "^2.0.0"
+    "supertest": "^2.0.0",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "mocha": "1.17.x",
@@ -37,5 +40,6 @@
   },
   "engines": {
     "node": "=4.0"
-  }
+  },
+  "snyk": true
 }
