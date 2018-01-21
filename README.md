@@ -1,5 +1,7 @@
 # Notiflow server
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Neamar/notiflow-server.svg)](https://greenkeeper.io/)
+
 Too lazy for a readme.
 This is a side project, done in an afternoon.
 
