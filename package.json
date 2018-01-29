@@ -17,7 +17,7 @@
   "dependencies": {
     "async": "^1.4.2",
     "auto-load": "^2.0.0",
-    "dotenv": "^1.2.0",
+    "dotenv": "^5.0.0",
     "eventsource": "^0.1.6",
     "gcm": "^1.0.1",
     "heroku-self-ping": "^1.1.2",
