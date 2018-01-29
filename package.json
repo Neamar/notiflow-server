@@ -1,13 +1,13 @@
 {
   "name": "notiflow",
   "version": "1.0.0",
-  "author": "Matthieu Bacconnier <matthieu.bacconnier@papiel.fr>",
+  "author": "Matthieu Bacconnier <neamar@neamar.fr>",
   "bin": {
     "server": "./bin/server"
   },
   "scripts": {
     "start": "node ./bin/server",
-    "lint": "jshint bin config/ lib/ app.js test.js && jscs  bin config/ lib/ app.js test.js"
+    "lint": "jshint bin config/ lib/ app.js test.js && jscs bin config/ lib/ app.js test.js"
   },
   "main": "./lib/",
   "repository": {
@@ -22,7 +22,7 @@
     "gcm": "^1.0.1",
     "heroku-self-ping": "^1.1.2",
     "mongoose": "^4.1.9",
-    "newrelic": "^1.22.1",
+    "newrelic": "^2.4.1",
     "opbeat": "^1.6.0",
     "rarity": "^2.1.1",
     "restify": "^4.0.3",
@@ -36,6 +36,6 @@
     "mocha-mongoose": "1.0.x"
   },
   "engines": {
-    "node": "=4.0"
+    "node": "=8.0"
   }
 }
