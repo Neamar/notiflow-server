@@ -21,7 +21,7 @@
     "eventsource": "^0.1.6",
     "gcm": "^1.0.1",
     "heroku-self-ping": "^1.1.2",
-    "mongoose": "^4.1.9",
+    "mongoose": "^5.0.6",
     "newrelic": "^2.4.1",
     "opbeat": "^1.6.0",
     "rarity": "^2.1.1",
