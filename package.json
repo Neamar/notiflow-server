@@ -22,8 +22,7 @@
     "gcm": "^1.0.1",
     "heroku-self-ping": "^1.1.2",
     "mongoose": "^4.1.9",
-    "newrelic": "^2.4.1",
-    "opbeat": "^1.6.0",
+    "newrelic": "^4.8.1",
     "rarity": "^2.1.1",
     "restify": "^4.0.3",
     "supertest": "^2.0.0"
@@ -36,6 +35,6 @@
     "mocha-mongoose": "1.0.x"
   },
   "engines": {
-    "node": "=8.0"
+    "node": "=8.11"
   }
 }
