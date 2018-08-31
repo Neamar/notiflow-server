@@ -21,12 +21,10 @@
     "eventsource": "^0.1.6",
     "gcm": "^1.0.1",
     "heroku-self-ping": "^1.1.2",
-    "mongoose": "^4.1.9",
+    "mongoose": "^4.13.17",
     "newrelic": "^4.8.1",
-    "opbeat": "^1.6.0",
     "rarity": "^2.1.1",
     "restify": "^4.0.3",
-    "safe-buffer": "^5.1.2",
     "supertest": "^3.1.0"
   },
   "devDependencies": {
@@ -37,6 +35,6 @@
     "should": "3.1.x"
   },
   "engines": {
-    "node": "=8.0"
+    "node": "=8.11"
   }
 }
