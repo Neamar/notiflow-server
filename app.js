@@ -12,13 +12,7 @@ var lib = require('./lib');
 mongoose.connect(config.mongoUrl);
 
 // Create server
-var server = restify.createServer({
-  formatters: {
-    'text/html': function(req, res, body, cb) {
-      cb(null, body);
-    }
-  }
-});
+var server = restify.createServer();
 
 server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
@@ -34,7 +28,8 @@ server.get('/privacy', function(req, res, next) {
     'Content-Length': Buffer.byteLength(privacyPolicy),
     'Content-Type': 'text/html'
   });
-  res.end(privacyPolicy);
+  res.write(privacyPolicy);
+  res.end();
   next();
 });
 
