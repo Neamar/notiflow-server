@@ -25,7 +25,6 @@ server.get('/status', lib.handlers.status.get);
 var privacyPolicy = fs.readFileSync(__dirname + '/privacy.html').toString();
 server.get('/privacy', function(req, res, next) {
   res.writeHead(200, {
-    'Content-Length': Buffer.byteLength(privacyPolicy),
     'Content-Type': 'text/html'
   });
   res.write(privacyPolicy);
