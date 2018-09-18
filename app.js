@@ -15,7 +15,7 @@ mongoose.connect(config.mongoUrl);
 var server = restify.createServer({
   formatters: {
     'text/html': function (req, res, body, cb) {
-      cb(null, body)
+      cb(null, body);
     }
   }
 });
