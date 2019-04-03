@@ -19,7 +19,7 @@
     "auto-load": "^2.0.0",
     "dotenv": "^1.2.0",
     "eventsource": "^0.1.6",
-    "gcm": "^1.0.1",
+    "gcm": "git+https://git@github.com/neamar/node-gcm.git",
     "heroku-self-ping": "^1.1.2",
     "mongoose": "^4.1.9",
     "newrelic": "^4.8.1",
