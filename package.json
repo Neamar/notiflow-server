@@ -16,14 +16,14 @@
   },
   "dependencies": {
     "async": "^1.4.2",
-    "auto-load": "^2.0.0",
+    "auto-load": "^3.0.4",
     "dotenv": "^1.2.0",
     "eventsource": "^0.1.6",
     "gcm": "git+https://git@github.com/neamar/node-gcm.git",
     "heroku-self-ping": "^1.1.2",
     "mongoose": "^4.1.9",
-    "newrelic": "^4.8.1",
-    "rarity": "^2.1.1",
+    "newrelic": "^5.10.0",
+    "rarity": "^2.1.2",
     "restify": "^4.0.3",
     "supertest": "^2.0.0"
   },
