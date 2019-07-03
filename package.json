@@ -7,7 +7,9 @@
   },
   "scripts": {
     "start": "node ./bin/server",
-    "lint": "jshint bin config/ lib/ app.js test.js && jscs bin config/ lib/ app.js test.js"
+    "lint": "jshint bin config/ lib/ app.js test.js && jscs bin config/ lib/ app.js test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "./lib/",
   "repository": {
@@ -25,7 +27,8 @@
     "newrelic": "^5.10.0",
     "rarity": "^2.1.2",
     "restify": "^4.0.3",
-    "supertest": "^2.0.0"
+    "supertest": "^2.0.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "jscs": "^1.7.3",
@@ -36,5 +39,6 @@
   },
   "engines": {
     "node": "10.16.0"
-  }
+  },
+  "snyk": true
 }
