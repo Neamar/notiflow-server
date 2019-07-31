@@ -25,7 +25,7 @@
     "newrelic": "^5.10.0",
     "rarity": "^2.1.2",
     "restify": "^4.0.3",
-    "supertest": "^2.0.0"
+    "supertest": "^3.0.0"
   },
   "devDependencies": {
     "jscs": "^1.7.3",
