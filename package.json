@@ -24,7 +24,7 @@
     "mongoose": "^4.1.9",
     "newrelic": "^5.10.0",
     "rarity": "^2.1.2",
-    "restify": "^4.0.3",
+    "restify": "^8.1.0",
     "supertest": "^2.0.0"
   },
   "devDependencies": {
