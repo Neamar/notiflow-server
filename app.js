@@ -9,7 +9,7 @@ var config = require('./config/');
 
 var lib = require('./lib');
 // Connect mongoose
-mongoose.connect(config.mongoUrl);
+mongoose.connect(config.mongoUrl, {useMongoClient: true});
 
 // Create server
 var server = restify.createServer();
