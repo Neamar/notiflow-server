@@ -32,5 +32,7 @@ server.get('/privacy', function(req, res, next) {
   next();
 });
 
+console.log("The server started")
+
 // Expose the server
 module.exports = server;
