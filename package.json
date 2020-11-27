@@ -21,7 +21,7 @@
     "eventsource": "^0.1.6",
     "gcm": "git+https://git@github.com/neamar/node-gcm.git",
     "heroku-self-ping": "^1.1.2",
-    "mongoose": "^4.1.9",
+    "mongoose": "^5.7.5",
     "newrelic": "^5.10.0",
     "rarity": "^2.1.2",
     "restify": "^4.0.3",
